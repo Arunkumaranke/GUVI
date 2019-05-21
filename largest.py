@@ -1,0 +1,9 @@
+q=int(input())
+r=int(input())
+s=int(input())
+if(q>=r)&(q>=s):
+    print(q)
+elif(r>=q)&(r>=s):
+    print(r)
+else:
+    print(s)
