@@ -1,3 +1,5 @@
 b=int(input())
-print("Hello\n"*b)
+while(b!=0):
+    print("Hello\n")
+    b=b-1
 
