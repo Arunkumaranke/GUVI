@@ -1,0 +1,12 @@
+f=int(input())
+temp=f
+v=0
+s=0
+while(f>0):
+    s=f%10
+    f=f//10
+    v+=s*s*s
+if(temp==v):
+    print("Yes")
+else:
+    print("No")
