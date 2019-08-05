@@ -1,8 +1,8 @@
 VoWel=str(input())
 LIST=['a','e','i','o','u','A','E','I','O','U']
-if a in LIST:
+if VoWel in LIST:
     print("Vowel")
-elif(a.isalpha()):
+elif(VoWel.isalpha()):
     print("Consonant")
 else:
-    print("Invalid")
+    print("invalid")
