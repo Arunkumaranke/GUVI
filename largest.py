@@ -1,9 +1,9 @@
-q=int(input())
-r=int(input())
-s=int(input())
-if(q>=r)&(q>=s):
-    print(q)
-elif(r>=q)&(r>=s):
-    print(r)
+qu=int(input())
+ru=int(input())
+su=int(input())
+if(qu>=ru)&(qu>=su):
+    print(qu)
+elif(ru>=qu)&(ru>=su):
+    print(ru)
 else:
-    print(s)
+    print(su)
