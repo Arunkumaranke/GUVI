@@ -1,9 +1,8 @@
-qu=int(input())
-ru=int(input())
-su=int(input())
-if(qu>=ru)&(qu>=su):
+
+[qu, ru, su] = list(map(int, input().split(" ")))
+if(qu>=ru) and (qu>=su):
     print(qu)
-elif(ru>=qu)&(ru>=su):
+elif(ru>=qu) and (ru>=su):
     print(ru)
 else:
     print(su)
