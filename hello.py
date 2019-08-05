@@ -1,5 +1,5 @@
-b=int(input())
-while(b!=0):
+bu=int(input())
+while(bu!=0):
     print("Hello\n")
-    b=b-1
+    bu=bu-1
 
