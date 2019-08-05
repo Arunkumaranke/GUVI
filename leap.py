@@ -1,5 +1,5 @@
-a=int(input())
-if a%4==0 and a%100!=0:
-    print("Yes")
+au=int(input())
+if au%4==0 and au%100!=0:
+    print("yes")
 else:
-    print("No")
+    print("no")
