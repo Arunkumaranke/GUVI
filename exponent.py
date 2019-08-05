@@ -1,4 +1,3 @@
-l=int(input())
-m=int(input())
-c= l**m
+[lu, mu] = list(map(int, input().split(" ")))
+c= lu**mu
 print(c)
