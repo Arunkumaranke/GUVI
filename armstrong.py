@@ -7,6 +7,6 @@ while(f>0):
     f=f//10
     v+=s*s*s
 if(temp==v):
-    print("Yes")
+    print("yes")
 else:
-    print("No")
+    print("no")
