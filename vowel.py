@@ -1,4 +1,4 @@
-a=str(input())
+VoWel=str(input())
 LIST=['a','e','i','o','u','A','E','I','O','U']
 if a in LIST:
     print("Vowel")
