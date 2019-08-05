@@ -1,3 +1,3 @@
-a=int(input())
-b=a*(a+1)/2
-print(b)
+au=int(input())
+bu=int(au*(au+1)/2)
+print(bu)
