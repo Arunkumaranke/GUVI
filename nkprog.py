@@ -1,9 +1,10 @@
-z=int(input())
-b=int(input())
+[z, b] = list(map(int, input().split(" ")))
 
-arr=[]
-for i in range(z):
-    c=int(input())
-    arr.append(c)
-d=b*(b+1)/2
-print(d)
+arr = list(map(int, input().split(" ")))
+
+d = 0
+
+for i in range(b):
+    d += arr[i]
+
+print(d);
