@@ -1,5 +1,8 @@
-g=int(input())
-h=int(input())
+[g,h]=list(map(int,input().split(" ")))
+flag = False
 for i in range(g+1,h):
     if(i%2!=0):
-        print(i)
+        if(flag):
+            print(end=" ")
+        print(i, end="")
+        flag = True
