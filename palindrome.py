@@ -1,5 +1,5 @@
-g=str(input())
-if g==g[::-1]:
-    print("Yes")
+gu=str(input())
+if gu==gu[::-1]:
+    print("yes")
 else:
-    print("No")
+    print("no")
