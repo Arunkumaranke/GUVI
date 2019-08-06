@@ -6,7 +6,7 @@ int main()
 {
   int Elements, sum = 0, avg, inst = 0;;
   
-  cin >> noOfElements;
+  cin >> Elements;
   
   while (inst++ != Elements)
   {
