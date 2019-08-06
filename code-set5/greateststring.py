@@ -1,5 +1,5 @@
-[Name,Name1]= input().split(" ")
-if len(Name) > len(Name1):
-    print(Name)
+[Namee,Name1]= input().split(" ")
+if len(Namee) > len(Name1):
+    print(Namee)
 else:
     print(Name1)
